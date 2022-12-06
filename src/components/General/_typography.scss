@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: $font-main;
+}
+a {
+  text-decoration: none;
+}
+
+h2, h1, header {
+  font-family: $font-header;
+}
+
+.container {
+  width: 1352px;
+  margin: 0 auto;
+}
+

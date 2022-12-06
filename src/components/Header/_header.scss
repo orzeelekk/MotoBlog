@@ -1,0 +1,54 @@
+.header {
+  height: 70px;
+  background-color: orange;
+
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  &_logo {
+    margin-top: 30px;
+    &::after {
+      content: url("../Assets/motorcycle-solid.svg");
+    }
+  }
+  &_navi {
+    display: flex;
+    align-items: center;
+    &_link {
+      //font-family: $font-header;
+      color: black;
+      margin-left: 20px;
+      &:hover {
+        &::after {
+          content: "";
+          display:block;
+          height:10px;
+        }
+      }
+    }
+  }
+
+  //&_socialmedia {
+  //  color: black;
+  //  &_youtube {
+  //    //background-image: url("../Assets/youtube.svg");
+  //  }
+  //  &_instagram {
+  //    background-image: url("../Assets/motorcycle-solid.svg");
+  //  }
+  //}
+  &_road {
+    height: 20px;
+    background-color: lightgray;
+    border-bottom: 5px solid grey;
+    border-top: 5px solid grey;
+    &_line {
+      margin-top: 2px;
+      border-bottom: 5px dashed grey;
+    }
+  }
+}

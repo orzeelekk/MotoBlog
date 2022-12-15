@@ -1,6 +1,8 @@
+@import "/home/orzelekk/Codersy/MotoBlog/src/main.scss";
+
 .header {
   height: 70px;
-  background-color: orange;
+  background-color: $color-orange;
 
   &_container {
     display: flex;
@@ -8,47 +10,98 @@
     align-items: center;
     height: 100%;
   }
-
   &_logo {
-    margin-top: 30px;
-    &::after {
-      content: url("../Assets/motorcycle-solid.svg");
+    position: absolute;
+    margin-top: 5px;
+    &_motorcycle {
+      top:23px;
+      width: 70px;
+      position: relative;
+      z-index: 0;
+      animation-fill-mode: forwards!important;
+      animation-timing-function: linear!important;
+      // czemu przy uzyciu animacji mam te wlasciwosci nadpisywane?
     }
   }
   &_navi {
     display: flex;
     align-items: center;
+    z-index: 1;
     &_link {
-      //font-family: $font-header;
+      font-family: $font-header;
       color: black;
       margin-left: 20px;
       &:hover {
-        &::after {
-          content: "";
-          display:block;
-          height:10px;
-        }
+          color: white;
+        font-size: 1.5rem;
       }
     }
   }
-
-  //&_socialmedia {
-  //  color: black;
-  //  &_youtube {
-  //    //background-image: url("../Assets/youtube.svg");
-  //  }
-  //  &_instagram {
-  //    background-image: url("../Assets/motorcycle-solid.svg");
-  //  }
-  //}
-  &_road {
-    height: 20px;
-    background-color: lightgray;
-    border-bottom: 5px solid grey;
-    border-top: 5px solid grey;
-    &_line {
-      margin-top: 2px;
-      border-bottom: 5px dashed grey;
+  &_socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 30px;
+      margin-right: 10px;
+      &:hover {
+        scale: 1.2;
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(159deg) brightness(101%) contrast(102%);      }
     }
   }
+  &_road {
+    height: 20px;
+    background-color: darkorange;
+  }
 }
+
+@keyframes shake {
+  to {
+    transform: rotate(3deg);
+  }
+}
+@keyframes move1 {
+  from {
+    left: 0;
+  }
+  to {
+    left: 491px;
+  }
+}
+@keyframes move2 {
+  from {
+    left: 0;
+  }
+  to {
+    left: 564px;
+  }
+}
+@keyframes move3 {
+  from {
+    left: 0;
+  }
+  to {
+    left: 653px;
+  }
+}
+@keyframes move4 {
+  from {
+    left: 0;
+  }
+  to {
+    left: 736px;
+  }
+}
+@keyframes move5 {
+  from {
+    left: 0;
+  }
+  to {
+    left: 806px;
+  }
+}
+
+
+
+
+

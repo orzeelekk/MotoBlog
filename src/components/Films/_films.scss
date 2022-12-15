@@ -1,0 +1,38 @@
+@import "/home/orzelekk/Codersy/MotoBlog/src/main.scss";
+
+.films {
+  display: flex;
+  flex-wrap: wrap;
+  &_box {
+    width: 25%;
+  }
+}
+
+//.films {
+//  display: flex;
+//  flex-wrap: wrap;
+//  &_image {
+//    width: 100%;
+//    border-radius: 5%;
+//    max-height: 500px;
+//  }
+//  &_header {
+//    font-size: 1.2rem;
+//    color: $color-darkoragne2;
+//    margin: 10px 0;
+//  }
+//  &_box {
+//    width: 25%;
+//    &_link {
+//      background-color: white;
+//      display: flex;
+//      flex-direction: column;
+//      justify-items: center;
+//      align-items: center;
+//      color: black;
+//      border-radius: 5%;
+//      margin: 10px;
+//      padding: 5px;
+//    }
+//  }
+//}

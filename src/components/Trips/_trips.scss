@@ -1,0 +1,27 @@
+@import "/home/orzelekk/Codersy/MotoBlog/src/main.scss";
+
+.trips {
+  background-image: url("../Assets/TRIP_BACKGROUND.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  &_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &_header {
+    font-size: 1.2rem;
+    font-family: $font-header;
+    margin: 10px 0;
+    font-weight: bold;
+    background-color: $color-orange;
+    padding: 5px;
+    border-radius: 5%;
+  }
+  &_box {
+    width: 30vw;
+  }
+}

@@ -1,0 +1,39 @@
+@import "/home/orzelekk/Codersy/MotoBlog/src/main.scss";
+.sectionto {
+  &_elements {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0 30px 0;
+  }
+  .button-to {
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    &_text{
+      font-weight: bold;
+      color: black;
+      background-color: white;
+      padding: 10px;
+      border-radius: 3px;
+      border: none;
+      &:hover {
+        color: $color-darkoragne2;
+      }
+    }
+  }
+  &_1 {
+    background-image: url("../Assets/to_1.jpg");
+  }
+  &_2 {
+    background-image: url("../Assets/MAPto.jpg");
+  }
+  &_3 {
+    background-image: url("../Assets/WYDARZENIA.jpg");
+  }
+  &_4 {
+    background-image: url("../Assets/PORADNIK.jpg");
+  }
+
+}

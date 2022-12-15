@@ -5,15 +5,71 @@ body {
   font-family: $font-main;
 }
 a {
+  color: black;
   text-decoration: none;
 }
 
-h2, h1, header {
+header, footer {
   font-family: $font-header;
 }
 
 .container {
   width: 1352px;
   margin: 0 auto;
+}
+.email:hover, .logo:hover {
+  color:$color-darkoragne2;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid transparent;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 5px 10px 0;
+  cursor: pointer;
+  justify-content: center;
+  line-height: 1.5;
+  margin: 10px;
+  transition: all 250ms;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  flex-grow: 1;
+  font-weight: 600;
+  padding: 10px;
+  &_image {
+    width: 100%;
+    border-radius: 5%;
+    max-height: 500px;
+  }
+  &_header {
+    font-size: 1.2rem;
+    color: $color-darkoragne2;
+    margin: 10px 0;
+  }
+  &_link {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: black;
+    border-radius: 5%;
+    margin: 10px;
+    padding: 5px;
+  }
+}
+.box:focus,
+.box:hover {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+.box:hover {
+  transform: translateY(-5px);
+}
+
+.box:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
 }
 

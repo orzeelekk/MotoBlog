@@ -1,0 +1,23 @@
+@import "/home/orzelekk/Codersy/MotoBlog/src/main.scss";
+
+.trips_main{
+  display: flex;
+  &_country {
+    margin-top: 30px;
+  }
+}
+
+.dropdown {
+  display: none;
+  &.show {
+    font-weight: bold;
+    border-radius: 3%;
+    padding: 10px;
+    line-height: 30px;
+    display: block;
+    background-color: white;
+    a:hover{
+      background-color: $color-darkorange;
+    }
+  }
+}

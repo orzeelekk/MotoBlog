@@ -1,0 +1,20 @@
+@import "/home/orzelekk/Codersy/MotoBlog/src/main.scss";
+
+.footer {
+  padding: 20px 0;
+  background-color: $color-darkorange;
+  box-shadow: 0 -5px 40px #00000029;
+  &_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_left {
+      display: flex;
+      flex-direction: column;
+      a:last-child {
+        margin-top:10px;
+      }
+    }
+  }
+
+}

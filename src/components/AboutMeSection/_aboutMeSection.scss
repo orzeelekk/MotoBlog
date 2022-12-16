@@ -19,4 +19,33 @@
     font-family: $font-header;
   }
 }
+.add {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form {
+  line-height: 30px;
+  margin-bottom: 30px;
+  &_input{
+    &_header {
+      font-family: $font-header;
+    }
+    &_text {
+      height: 40px;
+      &_main {
+      height: 80px;
+      width: 500px}
+      margin-bottom: 10px;
+      resize: none;
+    }
+  }
+  &_fieldset {
+    margin-bottom: 20px;
+  }
+}
+.motoinfo_box {
+  display: flex;
+  flex-direction: column;
+}
 

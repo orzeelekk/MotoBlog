@@ -1,7 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import "./_aboutMeSection.scss";
 import { daneTechniczne } from "./daneTechniczne";
 import DaneTechniczne from "./DaneTechniczne"
+import Form from "./Form";
 
 
 const AboutMeSection = () => {
@@ -28,14 +29,14 @@ const AboutMeSection = () => {
                 </div>
             </div>
         </section>
-        <div>
-            <h1 className="opening_header">Dane techniczne:</h1>
-            <ul className="menus">
-                {daneTechniczne.map((menu, index) => {
-                    return <DaneTechniczne items={menu} key={index} />;
-                })}
-            </ul>
-
+        <div className="motoinfoo container">
+                <h1 className="opening_header">Dane techniczne motoryckli:</h1>
+                <div className="motoinfo_box">
+                    {daneTechniczne.map((menu, index) => {
+                        return <DaneTechniczne items={menu} key={index} />;
+                    })}
+                </div>
+            <Form/>
         </div>
         </>
     );

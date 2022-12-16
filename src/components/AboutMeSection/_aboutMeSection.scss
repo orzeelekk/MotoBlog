@@ -1,0 +1,22 @@
+@import "/home/orzelekk/Codersy/MotoBlog/src/main.scss";
+
+.aboutme {
+  display: flex;
+  background-image: url("../Assets/ABOUTME_BACKGROUND.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &_info {
+    width: 80%;
+    height: auto;
+    flex-wrap: wrap;
+    background-color: RGBA(244,145,0,.5);
+    color: white;
+  }
+  &_header {
+    font-family: $font-header;
+  }
+}
+

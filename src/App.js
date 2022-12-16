@@ -6,6 +6,7 @@ import Home from "./components/pages/Home";
 import Film from "./components/pages/Film"
 import Trip from "./components/pages/Trip"
 import TripChorwacja from "./components/pages/TripChorwacja";
+import AboutMe from "./components/pages/Aboutme";
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
         <Route path="/Film" element={<Film /> } />
         <Route path="/Trip" element={<Trip /> } />
         <Route path="/Chorwacja" element={<TripChorwacja /> } />
-
+        <Route path="/AboutMe" element={<AboutMe /> } />
       </Routes>
     </BrowserRouter>
   );

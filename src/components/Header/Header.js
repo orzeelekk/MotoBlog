@@ -44,7 +44,7 @@ const Header = () => {
                                        "normal","1")}
                                    onMouseLeave={() => changeAnimation( "shake","0.08s",
                                        "alternate-reverse","infinite")}
-                                >{menu.title}</a>
+                                >{menu.title1}</a>
                             </li>
                         )
                     })}

@@ -21,7 +21,7 @@ export const headerItems = [
     },
     {
         title: 'O MNIE',
-        url: '/',
+        url: '/AboutMe',
         changeAnimation: "move5",
     },
 ];

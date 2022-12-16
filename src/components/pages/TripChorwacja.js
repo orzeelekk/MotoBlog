@@ -5,7 +5,7 @@ import Chorwacja from "../Chorwacja/Chorwacja";
 import Films from "../Films";
 import FILM_WEGRY from "../Assets/FILM_WEGRY.jpg";
 
-const tripChorwacja = () => {
+const TripChorwacja = () => {
     return (
         <div>
             <Header/>
@@ -29,4 +29,4 @@ const tripChorwacja = () => {
     );
 };
 
-export default tripChorwacja;
+export default TripChorwacja;

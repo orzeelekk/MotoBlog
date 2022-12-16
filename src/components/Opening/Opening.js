@@ -37,7 +37,7 @@ const Opening = () => {
                         <button onMouseEnter={() => handleHover2('orangered',-15)}
                                 onMouseLeave={() => handleHover2("orange",0)}
                                 className="button-option">BMW G 650 Xmoto/~Xchallenge (2007)</button>
-                        <button className="opening_button-to button-to">WIECEJ O MNIE I MOTOCYKLACH</button>
+                        <a href="/AboutMe" className="opening_button-to button-to">WIECEJ O MNIE I MOTOCYKLACH</a>
                     </div>
                     <div className="opening_right">
                         <div style={{

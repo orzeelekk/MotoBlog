@@ -40,7 +40,7 @@ const WeatherApi = () => {
             <option value="Zadar">Zadar</option>
             <option value="Rijeka">Rijeka</option>
             <option value="Zagrzeb">Zagrzeb</option>
-            <option value="Warszawa">Warszawa</option>
+            <option value="Warszawa">Warszawa(dla porównania :))</option>
         </select>
         <ul>
             <li className="blog_header_temp">Temperatura: {data.main.temp}°C</li>

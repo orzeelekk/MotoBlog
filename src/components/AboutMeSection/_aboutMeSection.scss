@@ -23,7 +23,10 @@
   display: flex;
   justify-content: space-around;
 }
-
+.motoinfo_box {
+  display: flex;
+  flex-direction: column;
+}
 .form {
   line-height: 30px;
   margin-bottom: 30px;
@@ -44,8 +47,5 @@
     margin-bottom: 20px;
   }
 }
-.motoinfo_box {
-  display: flex;
-  flex-direction: column;
-}
+
 

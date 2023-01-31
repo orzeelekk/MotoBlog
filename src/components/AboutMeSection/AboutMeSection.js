@@ -14,23 +14,23 @@ const AboutMeSection = () => {
                 <div className="box aboutme_info">
                     <h1 className="opening_header">Początki:</h1>
                     <p className="opening_text">
-                        Zaczynałem w 2018r. od 125'tki Derbi Terra mając prawojazdy kat B.<br/>
+                        Swoją motocyklową przygodę rozpocząłem w 2018r na 125'tce Derbi Terra mając prawojazdy kat B.<br/>
                         Na tym niewielkim sprzęcie postanowilem pojechac na Woodstock (trasa z Warszawy do Kostrzyna nad Odra ~12h jazdy).<br/>
-                        Mimo dlugiej dosyc meczacej trasy poczulem ze turystyka motocyklowa to wlasnie to.
-                        Na festiwalu o 4 w nocy rozbijajac namiot obudzilem sasiadow campingowych ktorzy mimo poznej pory wstali podali mi piwo :D i pomogli rozbić namiot.
-                        Mimo malej pojemnosci motocykla i braku prawka kat A szybko przyjeli mnie do swojej grupy i wprowadzili w swiat motocyklowy.
+                        Mimo meczacej trasy poczulem ze turystyka motocyklowa to wlasnie to.
+                        Na festwial dotarłem o 4 w nocy. Poczas rozbijajania namiotu obudzilem sasiadow campingowych ktorzy mimo poznej pory wstali i pomogli rozbić namiot a następnie poczęstwoali mnie piwem.
+                        Kolejnego dnia poznałem całą grupę motocyklową od sąsiadów z którymi szybko się zaprzyjazniłem.
                         Po powrocie z Woodstocka szybko zrobilem prawojazdy kat A. Aktualnie jestem posiadaczem dwoch motocykli:
                     </p>
                     <h1 className="opening_header">Aktualnie:</h1>
                     <p className="opening_text">
-                        Aktualnie głównie uprawiam turystykę motocyklową.<br/>
-                        Jak wcześniej wspominałem posiadam dwa motocykle opisane poniżej. Posiadałem również BMW G 650 Gs Sertao, świetny motocykl jednak ze względu na moje wymiary (tj. 1.9m) musiłem zmienić sprzęt.
+                        Aktualnie głównie uprawiam turystykę motocyklową i zaczynam jazdę torową.<br/>
+                        Dane techniczne moich motocykli opisałem poniżej.
                     </p>
                 </div>
             </div>
         </section>
         <div className="motoinfoo container">
-                <h1 className="opening_header">Dane techniczne motoryckli:</h1>
+                <h1 className="opening_header">Dane techniczne moich motocykli:</h1>
                 <div className="motoinfo_box">
                     {daneTechniczne.map((menu, index) => {
                         return <DaneTechniczne items={menu} key={index} />;

@@ -19,7 +19,7 @@ const WeatherApi = () => {
             })
             .then(result => {
                 setData(result);
-                console.log(result)
+                console.log(result);
             })
             .catch(err => {
                 console.log('Błąd', err);
@@ -28,7 +28,7 @@ const WeatherApi = () => {
 
     useEffect(() => {
         getData(city);
-    }, [city])
+    }, [city]);
 
     if (!data) return <p>Trwa ładowanie danych</p>
 

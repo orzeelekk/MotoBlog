@@ -4,7 +4,7 @@ function Form() {
     const [data, setData] = useState({
         Imie: '',
         Mail: '',
-        Wiadomosc: "",
+        Wiadomosc: ""
     })
     const [errors, setErrors] = useState([]);
     const [submitting, setSubmitting] = useState(false);

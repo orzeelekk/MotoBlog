@@ -13,7 +13,6 @@ const DaneTechniczne = ({ items }) => {
                 {items.title}{" "}
             </button>
             <Dropdown submenus={items.submenu} dropdown={dropdown} />
-            {/*<Dropdown dropdown={dropdown}/>*/}
         </>
     );
 };
